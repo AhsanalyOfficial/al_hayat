@@ -54,7 +54,7 @@ const Navbar = () => {
           <div className="w-full flex justify-between lg:flex-row">
             <div className="flex justify-between lg:flex-row">
               <a href="/" className="flex items-center text-2xl">
-                Al Hayat Consultant
+                Al-Hayat Consultants
               </a>
               <button
                 data-collapse-toggle="navbar-default-example"
