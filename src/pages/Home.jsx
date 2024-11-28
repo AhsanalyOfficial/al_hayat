@@ -46,20 +46,19 @@ const Home = () => {
                 }}
               >
                 <h2
-                  className="text-5xl font-semibold"
-                  style={{ textShadow: "1px 1px red" }}
+                  className="text-3xl font-semibold"
+                  style={{ textShadow: "1px 1px gray" }}
                 >
-                  Slide 1 Content
+                  Simplifying Taxes, Empowering Growth
                 </h2>
                 <p
                   className="mt-2 text-lg"
-                  style={{ textShadow: ".5px .5px red" }}
+                  // style={{ textShadow: ".5px .5px g" }}
                 >
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Eveniet provident veritatis saepe. Quia architecto enim
-                  tempora, fugit neque quasi, maiores voluptate qui temporibus
-                  quidem voluptatibus molestias! Consectetur tempore similique
-                  eum.
+                  At Al-Hayat Consultants, we take the complexity out of taxes.
+                  With expert guidance and personalized solutions, we empower
+                  businesses to thrive while ensuring full compliance with tax
+                  regulations.
                 </p>
               </div>
             </div>
@@ -80,20 +79,19 @@ const Home = () => {
                 }}
               >
                 <h2
-                  className="text-5xl font-semibold"
-                  style={{ textShadow: "1px 1px red" }}
+                  className="text-3xl font-semibold"
+                  style={{ textShadow: "1px 1px gray" }}
                 >
-                  Slide 1 Content
+                  Excellence in Tax Advisory
                 </h2>
                 <p
                   className="mt-2 text-lg"
-                  style={{ textShadow: ".5px .5px red" }}
+                  // style={{ textShadow: ".5px .5px red" }}
                 >
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Eveniet provident veritatis saepe. Quia architecto enim
-                  tempora, fugit neque quasi, maiores voluptate qui temporibus
-                  quidem voluptatibus molestias! Consectetur tempore similique
-                  eum.
+                  Trust us to deliver unmatched expertise in tax planning,
+                  filing, and compliance. With a client-centric approach, we are
+                  committed to helping you achieve your financial goals
+                  effortlessly.
                 </p>
               </div>
             </div>
@@ -114,20 +112,19 @@ const Home = () => {
                 }}
               >
                 <h2
-                  className="text-5xl font-semibold"
-                  style={{ textShadow: "1px 1px red" }}
+                  className="text-3xl font-semibold"
+                  style={{ textShadow: "1px 1px gray" }}
                 >
-                  Slide 1 Content
+                  Compliance Made Easy
                 </h2>
                 <p
                   className="mt-2 text-lg"
-                  style={{ textShadow: ".5px .5px red" }}
+                  // style={{ textShadow: ".5px .5px red" }}
                 >
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Eveniet provident veritatis saepe. Quia architecto enim
-                  tempora, fugit neque quasi, maiores voluptate qui temporibus
-                  quidem voluptatibus molestias! Consectetur tempore similique
-                  eum.
+                  Stay ahead of regulations with our comprehensive compliance
+                  solutions. From SECP to FBR filings, we ensure your business
+                  meets all legal requirements while saving you time and
+                  resources.
                 </p>
               </div>
             </div>
@@ -149,9 +146,10 @@ const Home = () => {
                   OUR SERVICES
                 </h2>
                 <p className="text-base text-body-color dark:text-dark-6">
-                  We handle audits, company formations, management consultancy,
-                  tax, regulations, and digital solutions, propelling your
-                  success beyond numbers.
+                  Ready to take control of your taxes and financial growth?
+                  Reach out to Al-Hayat Consultants today for personalized
+                  solutions that ensure compliance and optimize your business
+                  success.
                 </p>
               </div>
             </div>
@@ -461,18 +459,20 @@ const Home = () => {
               <div className="w-full px-4 lg:w-1/2">
                 <div className="mb-12 max-w-[540px] lg:mb-0">
                   <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                    Brilliant Toolkit to Build Nextgen Website Faster.
+                    Build Your Business Success with Expert Tax Consulting
                   </h2>
                   <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                    The main ‘thrust' is to focus on educating attendees on how
-                    to best protect highly vulnerable business applications with
-                    interactive panel discussions and roundtables led by subject
-                    matter experts.
+                    At Al-Hayat Consultants, we specialize in simplifying tax
+                    planning and financial strategies. Our team of experts
+                    offers personalized solutions that help businesses navigate
+                    complex tax regulations. We focus on providing comprehensive
+                    services that fuel your business growth and ensure long-term
+                    financial success.
                     <br />
                     <br />
-                    The main ‘thrust' is to focus on educating attendees on how
-                    to best protect highly vulnerable business applications with
-                    interactive panel.
+                    With over 9 years of experience, we’ve helped numerous
+                    businesses reduce liabilities and optimize financial
+                    outcomes.
                   </p>
 
                   <a

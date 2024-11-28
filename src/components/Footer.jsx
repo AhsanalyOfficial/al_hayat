@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link, NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -13,17 +13,16 @@ const Footer = () => {
               <div className="mb-10 w-full">
                 <a
                   href="javascript:void(0)"
-                  className="mb-6 inline-block max-w-[160px]"
+                  className="mb-8 inline-block text-2xl font-medium text-white"
+                  style={{ textShadow: "1px 1px gray" }}
                 >
-                  <img
-                    src="assets/images/logo/logo-white.svg"
-                    alt="logo"
-                    className="max-w-full"
-                  />
+                  Al-Hayat Consultants
                 </a>
                 <p className="mb-8 max-w-[270px] text-base text-gray-7">
-                  We create digital experiences htmlFor brands and companies by
-                  using technology.
+                  We provide expert tax and financial solutions, helping
+                  businesses thrive with a holistic approach. Guided by our
+                  motto, “Fueling the Growth with Financial Expertise,” we
+                  ensure your success through tailored strategies.
                 </p>
                 <div className="-mx-3 flex items-center">
                   <a
@@ -94,41 +93,39 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-10 w-full">
                 <h4 className="mb-9 text-lg font-semibold text-white">
-                  About Us
+                  Company
                 </h4>
                 <ul>
-                  <li>
-                    <a
-                      href="javascript:void(0)"
-                      className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                    >
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="javascript:void(0)"
-                      className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                    >
-                      Features
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="javascript:void(0)"
-                      className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                    >
-                      About
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="javascript:void(0)"
-                      className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                    >
-                      Testimonial
-                    </a>
-                  </li>
+                  <Link to="/">
+                    <li>
+                      <a
+                        href="javascript:;"
+                        className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                      >
+                        Home
+                      </a>
+                    </li>
+                  </Link>
+                  <Link to="about">
+                    <li>
+                      <a
+                        href="javascript:void(0)"
+                        className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                      >
+                        About
+                      </a>
+                    </li>
+                  </Link>
+                  <Link to="contact">
+                    <li>
+                      <a
+                        href="javascript:void(0)"
+                        className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                      >
+                        Contact
+                      </a>
+                    </li>
+                  </Link>
                 </ul>
               </div>
             </div>
@@ -143,7 +140,7 @@ const Footer = () => {
                       href="javascript:void(0)"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
-                      How it works
+                      SECP
                     </a>
                   </li>
                   <li>
@@ -151,7 +148,7 @@ const Footer = () => {
                       href="javascript:void(0)"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
-                      Privacy policy
+                      FBR
                     </a>
                   </li>
                   <li>
@@ -159,7 +156,7 @@ const Footer = () => {
                       href="javascript:void(0)"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
-                      Terms of Service
+                      SBP
                     </a>
                   </li>
                   <li>
@@ -167,7 +164,7 @@ const Footer = () => {
                       href="javascript:void(0)"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
-                      Refund policy
+                      PSEB
                     </a>
                   </li>
                 </ul>
@@ -176,7 +173,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
               <div className="mb-10 w-full">
                 <h4 className="mb-9 text-lg font-semibold text-white">
-                  Our Products
+                  Our Services
                 </h4>
                 <ul>
                   <li>
@@ -184,7 +181,7 @@ const Footer = () => {
                       href="javascript:void(0)"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
-                      LineIcons
+                      Tax Advisory
                     </a>
                   </li>
                   <li>
@@ -192,7 +189,7 @@ const Footer = () => {
                       href="javascript:void(0)"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
-                      Ecommerce HTML
+                      Financial Auditing
                     </a>
                   </li>
                   <li>
@@ -200,7 +197,7 @@ const Footer = () => {
                       href="javascript:void(0)"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
-                      TailAdmin
+                      Corporate Compliance
                     </a>
                   </li>
                   <li>
@@ -208,7 +205,7 @@ const Footer = () => {
                       href="javascript:void(0)"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
-                      PlainAdmin
+                      Business Consultancy
                     </a>
                   </li>
                 </ul>
@@ -217,37 +214,22 @@ const Footer = () => {
             <div className="w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12">
               <div className="mb-10 w-full">
                 <h4 className="mb-9 text-lg font-semibold text-white">
-                  Latest blog
+                  Contact us
                 </h4>
-                <div className="flex flex-col gap-8">
-                  <a
+                <div className="flex flex-col gap-2">
+                  {/* <a
                     href="blog-details.html"
                     className="group flex items-center gap-[22px]"
-                  >
-                    <div className="overflow-hidden rounded">
-                      <img
-                        src="./assets/images/blog/blog-footer-01.jpg"
-                        alt="blog"
-                      />
-                    </div>
-                    <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
-                      I think really important to design with...
-                    </span>
-                  </a>
-                  <a
-                    href="blog-details.html"
-                    className="group flex items-center gap-[22px]"
-                  >
-                    <div className="overflow-hidden rounded">
-                      <img
-                        src="./assets/images/blog/blog-footer-02.jpg"
-                        alt="blog"
-                      />
-                    </div>
-                    <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
-                      Recognizing the need is the primary...
-                    </span>
-                  </a>
+                  > */}
+                  <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
+                    info@gmail.com
+                  </span>
+                  {/* </a> */}
+                  {/* <a href="" className="group flex items-center gap-[22px]"> */}
+                  <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
+                    +92 301-4254468
+                  </span>
+                  {/* </a> */}
                 </div>
               </div>
             </div>
@@ -285,13 +267,14 @@ const Footer = () => {
                 <div className="my-1 flex justify-center md:justify-end">
                   <p className="text-base text-gray-7">
                     Designed and Developed by
+                    <span> </span>
                     <a
-                      href="https://tailgrids.com"
+                      href="https://linkedin.com/in/ahsan-ali-developer"
                       rel="nofollow noopner"
                       target="_blank"
                       className="text-gray-1 hover:underline"
                     >
-                      TailGrids and UIdeck
+                      ahsanaly
                     </a>
                   </p>
                 </div>
