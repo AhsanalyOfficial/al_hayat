@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FaWhatsapp } from "react-icons/fa"; // Import WhatsApp icon from react-icons
-
 const Navbar = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -54,11 +53,8 @@ const Navbar = () => {
         <div className="container mx-auto">
           <div className="w-full flex justify-between lg:flex-row">
             <div className="flex justify-between lg:flex-row">
-              <a
-                href="https://pagedone.io/"
-                className="flex items-center text-2xl"
-              >
-                Al-Hayat-Consultant
+              <a href="/" className="flex items-center text-2xl">
+                Al Hayat Consultant
               </a>
               <button
                 data-collapse-toggle="navbar-default-example"
