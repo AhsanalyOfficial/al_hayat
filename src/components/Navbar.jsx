@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { FaWhatsapp } from "react-icons/fa"; // Import WhatsApp icon from react-icons
+import { FaWhatsapp } from "react-icons/fa"; 
+import "../style/animate.css"
 const Navbar = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -51,9 +52,9 @@ const Navbar = () => {
         }}
       >
         <div className="container mx-auto">
-          <div className="w-full flex justify-between lg:flex-row">
+          <div className="mbl-container w-full flex justify-between lg:flex-row">
             <div className="flex justify-between lg:flex-row">
-              <a href="/" className="flex items-center text-2xl">
+              <a href="/" className="logo-name flex items-center text-2xl">
                 Al-Hayat Consultants
               </a>
               <button
@@ -86,7 +87,7 @@ const Navbar = () => {
               }`} // Show or hide navbar on mobile view
               id="navbar-default-example"
             >
-              <ul className="flex items-center mt-4 lg:mt-0 lg:ml-auto lg:flex-row gap-6">
+              <ul className="mbl-menu flex items-center mt-4 lg:mt-0 lg:ml-auto lg:flex-row gap-6">
                 <Link to="">
                   <li>
                     <a
@@ -121,7 +122,7 @@ const Navbar = () => {
                   {/* WhatsApp Button */}
                   <button
                     onClick={handleWhatsAppClick}
-                    className="flex items-center bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition-all duration-300"
+                    className="whatsapp-button flex items-center bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition-all duration-300"
                   >
                     <FaWhatsapp className="mr-2" size={20} /> Leave a message
                   </button>

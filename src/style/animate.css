@@ -232,3 +232,23 @@
     animation-iteration-count: 1 !important;
   }
 }
+
+
+@media screen and (max-width: 959px) {
+  .mbl-container{
+    width: 100% !important;
+    flex-direction: column;
+  }
+  .mbl-container .logo-name{
+    font-size: 18px;
+  }
+  .mbl-container button:nth-child(2){
+    background-color: whitesmoke !important;
+  }
+  .mbl-menu{
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid white;
+    padding-top: 40px;
+  }
+ }
